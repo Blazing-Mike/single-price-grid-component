@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: hsl(204, 43%, 93%);
+  margin: 10%;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: hsl(179, 62%, 43%);
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+.heading-small {
+  font-size: 1.1rem;
+  word-spacing: 3px;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.heading-medium {
+  color: white;
+}
+
+.green-text {
+  color: hsl(71, 73%, 54%);
+  margin-top: 1rem;
+}
+
+.para {
+  color: hsl(218, 22%, 67%);
+  margin-top: 1rem;
+}
+.para-white {
+  color: white;
+  line-height: 2;
+}
+.bold-text {
+  font-size: 1.6rem;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.box {
+  padding: 20px;
+  height: auto;
+}
+
+.white-box {
+  background-color: white;
+  grid-column: 1/4;
+  max-width: 50rem;
+  height: 240px;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+}
+
+.blue-box {
+  background-color: hsl(179, 62%, 43%);
+}
+.grey-box {
+  background-color: hsl(218, 22%, 67%);
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+}
+.container {
+  margin: 5rem 1rem;
+}
+
+button {
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  border: transparent;
+  margin: auto;
+  color: white;
+  font-weight: 600;
+  background-color: hsl(71, 73%, 54%);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+li {
+  color: white;
+  line-height: 2;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    margin: 5rem 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 25rem);
+    grid-template-rows: auto;
+    border-radius: 0.4rem;
+  }
+}
